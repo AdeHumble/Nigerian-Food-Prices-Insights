@@ -1,4 +1,17 @@
 # FOOD PRICES ANALYSIS IN NIGERIA (CASE STUDY: 2002-2023)
+<div align="center">
+  <table style="margin-left:auto; margin-right:auto; border-collapse: collapse">
+    <tr>
+      <td align="left" style="border: none">
+        <img src="images/SHLogo.jpg" alt="Image Description" width="100" height="100">
+      </td>
+      <td align="center" style="border: none">
+        <h1>FOOD PRICES ANALYSIS IN NIGERIA (CASE STUDY: 2002-2023)</h1>
+      </td>
+    </tr>
+  </table>
+</div>
+
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -12,7 +25,7 @@
 This project analyzes food prices data for Nigeria sourced from the World Food Programme Price Database. The goal is to explore trends, disparities, and factors influencing food prices to provide insights for stakeholders and policymakers.
 
 ## Dataset Description
-The dataset used for this project contains food prices data for various commodities and regions in Nigeria. It covers foods such as maize, rice, beans, fish, and sugar for different markets across the country.
+The dataset used for this project contains food prices data for various commodities and regions in Nigeria [Check Datasource](https://data.humdata.org/dataset/wfp-food-prices-for-nigeria). It covers foods such as maize, rice, beans, fish, and sugar for different markets across the country.
 
 
 

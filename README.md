@@ -1,15 +1,22 @@
 # FOOD PRICES ANALYSIS IN NIGERIA (CASE STUDY: 2002-2023)
 
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Dataset Description](#dataset-description)
+3. [Project Objectives](#project-objectives)
+4. [Tools & Technologies Used](#tools-and-technologies)
+5. [Project Structure](#project-structure)
+6. [Contact Information](#contact-information)
+
 ## Project Overview
 This project analyzes food prices data for Nigeria sourced from the World Food Programme Price Database. The goal is to explore trends, disparities, and factors influencing food prices to provide insights for stakeholders and policymakers.
 
-## Table of Contents
-
-1. [Project Objectives](#project-objectives)
-2. [Contact Information](#contact-information)
-
 ## Dataset Description
-The dataset contains food prices data for various commodities and regions in Nigeria. It covers foods such as maize, rice, beans, fish, and sugar for different markets across the country.
+The dataset used for this project contains food prices data for various commodities and regions in Nigeria. It covers foods such as maize, rice, beans, fish, and sugar for different markets across the country.
+
+
+
+
 
 ## Project Objectives
 - Forecast commodity prices

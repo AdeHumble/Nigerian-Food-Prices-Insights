@@ -19,11 +19,11 @@
 3. [Project Objectives](#project-objectives)
 4. [Tools & Technologies Used](#tools-and-technologies)
 5. [Project Structure](#project-structure)
-6. [Data Analysis](data-analysis)
-7. [Future Work](future-work)
-8. [References](references)
+6. [Data Analysis](#data-analysis)
+7. [Future Work](#future-work)
+8. [References](#references)
 9. [Contact Information](#contact-information)
-10. [Acknowledgements](acknowledgements)
+10. [Acknowledgements](#acknowledgements)
 
 ## Project Overview
 This project analyzes food prices data for Nigeria sourced from the World Food Programme Price Database. The goal is to explore trends, disparities, and factors influencing food prices to provide insights for stakeholders and policymakers.

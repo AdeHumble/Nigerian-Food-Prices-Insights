@@ -27,10 +27,6 @@ This project analyzes food prices data for Nigeria sourced from the World Food P
 The dataset used for this project contains food prices data for various commodities and regions in Nigeria [Check Datasource](https://data.humdata.org/dataset/wfp-food-prices-for-nigeria). It covers foods such as maize, rice, beans, fish, and sugar for different markets across the country.
 <div align="center"> src="image/dataset-snapshot.PNG" </div>
 
-
-
-
-
 ## Project Objectives
 - Forecast commodity prices
 - Identify market opportunities and challenges

@@ -11,17 +11,15 @@
   </table>
 </div>
 
-
 # <p align="center"/> **TABLE OF CONTENTS** </p>
-
 1. [Project Overview](#project-overview)
 2. [Dataset Description](#dataset-description)
 3. [Project Objectives](#project-objectives)
 4. [Tools & Technologies Used](#tools-and-technologies)
 5. [Project Structure](#project-structure)
 6. [Data Analysis](#data-analysis)
-7.   [Data Cleaning & Preprocessing](#data-cleaning-and-data-preprocessing)
-8.   [Results - Insights Derived]
+7. [Data Cleaning & Preprocessing](#data-cleaning-and-data-preprocessing)
+8. [Results - Insights Derived]
 9. [Recommendations](#recommendations)    
 10. [Future Work](#future-work)
 11. [References](#references)

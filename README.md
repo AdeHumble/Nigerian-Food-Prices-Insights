@@ -12,27 +12,34 @@
 </div>
 
 
-## Table of Contents
+# <p align="center"/> **TABLE OF CONTENTS** </p>
+
 1. [Project Overview](#project-overview)
 2. [Dataset Description](#dataset-description)
 3. [Project Objectives](#project-objectives)
 4. [Tools & Technologies Used](#tools-and-technologies)
 5. [Project Structure](#project-structure)
-6. [Contact Information](#contact-information)
+6. [Data Analysis](data-analysis)
+7. [Future Work](future-work)
+8. [References](references)
+9. [Contact Information](#contact-information)
+10. [Acknowledgements](acknowledgements)
 
 ## Project Overview
 This project analyzes food prices data for Nigeria sourced from the World Food Programme Price Database. The goal is to explore trends, disparities, and factors influencing food prices to provide insights for stakeholders and policymakers.
 
 ## Dataset Description
 The dataset used for this project contains food prices data for various commodities and regions in Nigeria [Check Datasource](https://data.humdata.org/dataset/wfp-food-prices-for-nigeria). It covers foods such as maize, rice, beans, fish, and sugar for different markets across the country.
-<div align="center"> src="image/dataset-snapshot.PNG" </div>
+
+<div align="center">
+  <img src="images/dataset%20snapshot.PNG" alt="Image Description">
+</div>
 
 ## Project Objectives
-- Forecast commodity prices
-- Identify market opportunities and challenges
-- Understand consumer preferences and behavior
+- Identify regional variations in food prices within Nigeria and analyze the factors contributing to these disparities.
 - Provide insights for policymakers
 - Evaluate food affordability and accessibility
+- Compare inflation rates of food commodities of year to year
 
 ## Tools and Technologies
 - Power BI for data visualization
@@ -40,6 +47,7 @@ The dataset used for this project contains food prices data for various commodit
 ## Project Structure
 - /data: Contains the raw and processed data files
 - /visualizations: Contains Power BI visualization files
+- /images: Contains images used for creating Github documentations
 - /docs: Contains project documentation
 
 ## Data Analysis
@@ -49,7 +57,8 @@ The dataset used for this project contains food prices data for various commodit
 - Created visualizations to communicate key findings
 
 ## Future Work
-- Refine visualizations for better insights
+- Create a model to forecast prices of food items in Nigeria
+- Refine project visualizations for better insights
 - Explore additional datasets for broader analysis
 - Collaborate with domain experts for deeper insights
 
@@ -57,11 +66,8 @@ The dataset used for this project contains food prices data for various commodit
 - [World Food Programme Price Database](https://www.wfp.org/prices)
 
 ## Contact Information
-For inquiries, please contact [your email] or connect on [LinkedIn](https://www.linkedin.com/in/yourprofile).
+For inquiries, please contact [sunmolaadeyanju@gmail.com] or connect on [LinkedIn](https://www.linkedin.com/in/sunmolaadeyanju/).
 
 ## Acknowledgements
-- Special thanks to [name] for their support and guidance.
-
-## License
-This project is licensed under the [license name]. See the [LICENSE](LICENSE) file for details.
+- Special thanks to [Mr. Temidayo](https://www.linkedin.com/in/temidayoayeni/) for his invaluable support and guidance.
 

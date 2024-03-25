@@ -16,15 +16,15 @@
 2. [Project Objectives](#project-objectives)
 4. [Tools & Technologies Used](#tools-and-technologies)
 5. [Project Structure](#project-structure)
-6. [Data Analysis](#data-analysis)
 7. [Data Collection](#data-collection)
 8. [Data Cleaning & Preprocessing](#data-cleaning-and-data-preprocessing)
-9. [Results - Insights Derived]
-10. [Recommendations](#recommendations)    
-11. [Future Work](#future-work)
-12. [References](#references)
-13. [Contact Information](#contact-information)
-14. [Acknowledgements](#acknowledgements)
+9. [Methodology](#methodology)
+10. [Results & Observations](#results--observations)
+11. [Recommendations](#recommendations)    
+12. [Future Work](#future-work)
+13. [References](#references)
+14. [Contact Information](#contact-information)
+15. [Acknowledgements](#acknowledgements)
 
 ## Project Overview
 This project analyzes food prices data for Nigeria sourced from the World Food Programme Price Database. The goal is to explore trends, disparities, and factors influencing food prices to provide insights for stakeholders and policymakers.
@@ -60,7 +60,7 @@ The dataset used for this project contains food prices data for various commodit
 - Changed the data type for latitude and longitude to decimals
 - Formatted the last column which - USD price to 2 decimal places.
 
-## Data Analysis
+## Methodology
 - Explored trends in food prices over time
 - Analyzed regional disparities in food prices
 - Identified factors influencing food prices
@@ -76,7 +76,7 @@ The dataset used for this project contains food prices data for various commodit
 
 3. Yobe and Borno states emerged as leaders with the highest count of markets, correlating with their status as top producers of unique food commodities. Each state experienced an impressive 82% increase in market count and food commodity production compared to others.
 <div align="center">
-  <img src="States%20Producing%20Power%20&%20Market%20Counts.PNG" alt="Image Description">
+  <img src="States%20Producing%20Power%20&%20Market%20Count.PNG" alt="Image Description">
 </div>
 
 4. Despite being among the least prolific states in terms of food production and market presence, Abia stands out for for its relatively expensive food items compared to other producing states, underscoring its market influence despite limited production volume

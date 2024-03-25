@@ -58,8 +58,29 @@ The dataset used for this project contains food prices data for various commodit
 - Created visualizations to communicate key findings
 
 ## Data Cleaning and Data Preprocessing
-fghjkl;dfghjkl;'
-fghjklfghjk
+- Promoted the first row as header and deleted the next row immediately after it
+- Renamed the all the columns using sentence case
+- Changed the data type for Date the column to a datetime type
+- Renamed the second column to State 
+- Renamed the third column to LGA
+- Changed the data type for latitude and longitude to decimals
+- Formatted the last column which - USD price to 2 decimal places.
+
+## Results & Observations
+1. The number of states engaging in food production or agriculture saw a significant increase starting from 2015, with a 50% rise observed within 7 months
+2. This surge in agricultural activity led to a subsequent increase in food production across the nation, highlighting the direct correlation between state involvement in agriculture and the availability of diverse food items.
+3. Yobe and Borno states emerged as leaders with the highest count of markets, correlating with their status as top producers of unique food commodities. Each state experienced an impressive 82% increase in market count and food commodity production compared to others.
+4. Despite being among the least prolific states in terms of food production and market presence, Abia stands out for for its relatively expensive food items compared to other producing states, underscoring its market influence despite limited production volume
+
+
+## Recommendations
+
+|RECOMMENDATIONS|
+|---------------|
+|1. Conduct further analysis to understand the factors contributing to Abia's high average food prices despite its lower production and market presence. This insight can inform strategies to address affordability challenges and improve access to essential food items in the region.|
+|2. Provide targeted support and resources to states like Yobe and Borno, which have emerged as leaders in market count and food commodity production. This can help maximize their potential and further strengthen their contributions to the agricultural sector.|
+|3. Implement policies and initiatives that foster agricultural development and investment to sustain the surge in agricultural activity and subsequent food production growth.|
+
 
 ## Future Work
 - Create a model to forecast prices of food items in Nigeria

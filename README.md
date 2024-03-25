@@ -13,28 +13,21 @@
 
 # <p align="center"/> **TABLE OF CONTENTS** </p>
 1. [Project Overview](#project-overview)
-2. [Dataset Description](#dataset-description)
-3. [Project Objectives](#project-objectives)
+2. [Project Objectives](#project-objectives)
 4. [Tools & Technologies Used](#tools-and-technologies)
 5. [Project Structure](#project-structure)
 6. [Data Analysis](#data-analysis)
-7. [Data Cleaning & Preprocessing](#data-cleaning-and-data-preprocessing)
-8. [Results - Insights Derived]
-9. [Recommendations](#recommendations)    
-10. [Future Work](#future-work)
-11. [References](#references)
-12. [Contact Information](#contact-information)
-13. [Acknowledgements](#acknowledgements)
+7. [Data Collection](#data-collection)
+8. [Data Cleaning & Preprocessing](#data-cleaning-and-data-preprocessing)
+9. [Results - Insights Derived]
+10. [Recommendations](#recommendations)    
+11. [Future Work](#future-work)
+12. [References](#references)
+13. [Contact Information](#contact-information)
+14. [Acknowledgements](#acknowledgements)
 
 ## Project Overview
 This project analyzes food prices data for Nigeria sourced from the World Food Programme Price Database. The goal is to explore trends, disparities, and factors influencing food prices to provide insights for stakeholders and policymakers.
-
-## Dataset Description
-The dataset used for this project contains food prices data for various commodities and regions in Nigeria [Check Datasource](https://data.humdata.org/dataset/wfp-food-prices-for-nigeria). It covers foods such as maize, rice, beans, fish, and sugar for different markets across the country.
-
-<div align="center">
-  <img src="images/dataset%20snapshot.PNG" alt="Image Description">
-</div>
 
 ## Project Objectives
 - Identify regional variations in food prices within Nigeria and analyze the factors contributing to these disparities.
@@ -43,7 +36,7 @@ The dataset used for this project contains food prices data for various commodit
 - Compare inflation rates of food commodities of year to year
 
 ## Tools and Technologies
-- Power BI for data visualization
+- Power BI for data cleaning, analysis and visualization
 
 ## Project Structure
 - /data: Contains the raw and processed data files
@@ -51,11 +44,12 @@ The dataset used for this project contains food prices data for various commodit
 - /images: Contains images used for creating Github documentations
 - /docs: Contains project documentation
 
-## Data Analysis
-- Explored trends in food prices over time
-- Analyzed regional disparities in food prices
-- Identified factors influencing food prices
-- Created visualizations to communicate key findings
+## Data Collection
+The dataset used for this project contains food prices data for various commodities and regions in Nigeria [Check Datasource](https://data.humdata.org/dataset/wfp-food-prices-for-nigeria). It covers foods such as maize, rice, beans, fish, and sugar for different markets across the country.
+
+<div align="center">
+  <img src="images/dataset%20snapshot.PNG" alt="Image Description">
+</div>
 
 ## Data Cleaning and Data Preprocessing
 - Promoted the first row as header and deleted the next row immediately after it
@@ -66,16 +60,29 @@ The dataset used for this project contains food prices data for various commodit
 - Changed the data type for latitude and longitude to decimals
 - Formatted the last column which - USD price to 2 decimal places.
 
+## Data Analysis
+- Explored trends in food prices over time
+- Analyzed regional disparities in food prices
+- Identified factors influencing food prices
+- Created visualizations to communicate key findings
+
 ## Results & Observations
 1. The number of states engaging in food production or agriculture saw a significant increase starting from 2015, with a 50% rise observed within 7 months
 2. This surge in agricultural activity led to a subsequent increase in food production across the nation, highlighting the direct correlation between state involvement in agriculture and the availability of diverse food items.
+
 <div align="center">
   <img src="visualizations/Count%20of%20Prod%20States%20&%20Commodities%20by%20Date.PNG" alt="Image Description">
 </div>
 
+3. Yobe and Borno states emerged as leaders with the highest count of markets, correlating with their status as top producers of unique food commodities. Each state experienced an impressive 82% increase in market count and food commodity production compared to others.
+<div align="center">
+  <img src="States%20Producing%20Power%20&%20Market%20Counts.PNG" alt="Image Description">
+</div>
 
-4. Yobe and Borno states emerged as leaders with the highest count of markets, correlating with their status as top producers of unique food commodities. Each state experienced an impressive 82% increase in market count and food commodity production compared to others.
-5. Despite being among the least prolific states in terms of food production and market presence, Abia stands out for for its relatively expensive food items compared to other producing states, underscoring its market influence despite limited production volume
+4. Despite being among the least prolific states in terms of food production and market presence, Abia stands out for for its relatively expensive food items compared to other producing states, underscoring its market influence despite limited production volume
+<div align="center">
+  <img src="visualizations/Food%20Prices%20by%20Market%20&%20States.PNG" alt="Image Description">
+</div>
 
 
 ## Recommendations
@@ -97,7 +104,7 @@ The dataset used for this project contains food prices data for various commodit
 - [World Food Programme Price Database](https://www.wfp.org/prices)
 
 ## Contact Information
-For inquiries, please contact [sunmolaadeyanju@gmail.com] or connect on [LinkedIn](https://www.linkedin.com/in/sunmolaadeyanju/).
+For inquiries, please contact [Email](sunmolaadeyanju@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/sunmolaadeyanju/).
 
 ## Acknowledgements
 - Special thanks to [Mr. Temidayo](https://www.linkedin.com/in/temidayoayeni/) for his invaluable support and guidance.

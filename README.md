@@ -2,7 +2,7 @@
   <table style="margin-left:auto; margin-right:auto; border-collapse: collapse">
     <tr>
       <td align="left" style="border: none">
-        <img src="images/SHLogo.jpg" alt="Image Description" width="150" height="150">
+        <img src="images/SHLogo.jpg" alt="Image Description" width="100" height="100">
       </td>
       <td align="center" style="border: none">
         <h1>FOOD PRICES ANALYSIS IN NIGERIA<br>(CASE STUDY: 2002-2023)</h1>
@@ -11,7 +11,7 @@
   </table>
 </div>
 
-# <p align="center"/> **TABLE OF CONTENTS** </p>
+## <p align="center"/> **TABLE OF CONTENTS** </p>
 1. [Project Overview](#project-overview)
 2. [Project Objectives](#project-objectives)
 4. [Tools & Technologies Used](#tools--technologies)

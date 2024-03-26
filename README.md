@@ -69,7 +69,7 @@ The dataset used for this project contains food prices data for various commodit
 ## Results & Observations
 Find below some of the report visualizations:
 
-![Watch the video]([Watch the video](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing)
+![Watch the video](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing)
 
 
 

@@ -11,15 +11,6 @@
   </table>
 </div>
 
-<div align="center">
-  <img src="images/aa.PNG" alt="Image Description">
-</div>
-
-
-<div align="center">
-  <img src="visualizations/aa.PNG" alt="Image Description">
-</div>
-
 ## <p align="center"/> **TABLE OF CONTENTS** </p>
 1. [Project Overview](#project-overview)
 2. [Project Objectives](#project-objectives)
@@ -77,6 +68,9 @@ The dataset used for this project contains food prices data for various commodit
 
 ## Results & Observations
 Find below some of the report visualizations:
+![Watch the video](videos/NigeriaFoodPricesInsights)
+
+
 
 <div align="center">
   <img src="visualizations/foodprices%20report.PNG" alt="Image Description">

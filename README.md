@@ -67,6 +67,9 @@ The dataset used for this project contains food prices data for various commodit
 - Created visualizations to communicate key findings
 
 ## Results & Observations
+
+[![Watch a glimpse of the dashboard funcionality video Here](https://img.youtube.com/vi/YOUR_VIDEO_ID_HERE/0.jpg)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID_HERE](https://screenrec.com/share/x3aY1ZopOw))
+
 1. The number of states engaging in food production or agriculture saw a significant increase starting from 2015, with a 50% rise observed within 7 months
 2. This surge in agricultural activity led to a subsequent increase in food production across the nation, highlighting the direct correlation between state involvement in agriculture and the availability of diverse food items.
 

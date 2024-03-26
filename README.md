@@ -65,6 +65,7 @@ The dataset used for this project contains food prices data for various commodit
 - Analyzed regional disparities in food prices
 - Identified factors influencing food prices
 - Created visualizations to communicate key findings
+- Created DAX measures for Average prices, SamePeriod Last year, YoY growth, and Average Price for YoY
 
 ## Results & Observations
 First, find below some of the report visualizations: However, for more details, [Watch the video here](https://drive.google.com/file/d/1RJsscFydDBy3Q3KyBYPrChOIvWu4rbVY/view?usp=drive_link)

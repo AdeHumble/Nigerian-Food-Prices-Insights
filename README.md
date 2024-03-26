@@ -68,7 +68,7 @@ The dataset used for this project contains food prices data for various commodit
 
 ## Results & Observations
 Find below some of the report visualizations:
-![Watch the video](videos/NigeriaFoodPricesInsights)
+![Watch the video](https://drive.google.com/file/d/1RJsscFydDBy3Q3KyBYPrChOIvWu4rbVY/view?usp=drive_link)
 
 
 

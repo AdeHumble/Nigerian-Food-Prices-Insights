@@ -67,31 +67,27 @@ The dataset used for this project contains food prices data for various commodit
 - Created visualizations to communicate key findings
 
 ## Results & Observations
-Find below some of the report visualizations:
+First, find below some of the report visualizations: However, for more details, [Watch the video here](https://drive.google.com/file/d/1RJsscFydDBy3Q3KyBYPrChOIvWu4rbVY/view?usp=drive_link)
 
-[Watch the video](https://drive.google.com/file/d/1RJsscFydDBy3Q3KyBYPrChOIvWu4rbVY/view?usp=drive_link)
+<div align="center">
+  <img src="visualizations/foodprices%20report.PNG" alt="FoodPrices">
+</div>
 
+#
 
 
 <div align="center">
-  <img src="visualizations/foodprices%20report.PNG" alt="Image Description">
+  <img src="visualizations/metrics%20report.PNG" alt="Metrics">
 </div>
 
 
-
+#
 
 <div align="center">
-  <img src="visualizations/metrics%20report.PNG" alt="Image Description">
+  <img src="visualizations/marketprod%20report.PNG" alt="MarketProduction">
 </div>
 
-
-
-
-<div align="center">
-  <img src="visualizations/marketprod%20report.PNG" alt="Image Description">
-</div>
-
-
+#
 
 ## INSIGHTS DERIVED
 1. The number of states engaging in food production or agriculture saw a significant increase starting from 2015, with a 50% rise observed within 7 months

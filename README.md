@@ -11,8 +11,7 @@
   </table>
 </div>
 
-<div align="center"> <img src="images/intro%20cover.PNG" width=730> </div>
-
+<div align="center"> <img src="images/foodprices%20cover.jpg" width=730> </div>
 
 ## <p align="center"/> **TABLE OF CONTENTS** </p>
 1. [Project Overview](#project-overview)
@@ -55,20 +54,30 @@ The dataset used for this project contains food prices data for various commodit
 </div>
 
 ## DATA CLEANING & DATA PREPROCESSING
+This section outlines the data preprocessing techniques employed to clean and prepare the dataset for analysis. Each technique addresses specific issues such as data formatting and data type standardization.
+
+### <p align="center"> Data Formatting </p>
 - Promoted the first row as header and deleted the next row immediately after it
-- Renamed the all the columns using sentence case
+- Renamed all the columns using sentence case
 - Changed the data type for the "Date" column to a datetime type
 - Renamed the second column, "admin 1" to "State"
 - Renamed the third column, "admin 2" to "LGA"
-- Changed the data type for latitude and longitude to decimals
-- Formatted the last column which - USD price to 2 decimal places.
+- Changed the data type for the "Latitude" and "Longitude" columns to float
+- Formatted the last column, "USD price" to 2 decimal places.
+
+<div align="center">
+  <img src="images/dataformatting.PNG" alt="Image Description">
+</div>
+
+### <p align="center"> Data Standardization </p>
+- Replaced every value of "Beans (niebe)" in the "Commodity" column with "Beans (white)"
 
 ## METHODOLOGY
 - Explored trends in food prices over time
 - Analyzed regional disparities in food prices
 - Identified factors influencing food prices
-- Created visualizations to communicate key findings
 - Created DAX measures for Average prices, SamePeriod Last year, YoY growth, and Average Price for YoY
+- Created visualizations to communicate key findings
 
 ## RESULTS & OBSERVATIONS
 First, find below some of the report visualizations: However, for more details, [Watch the video here](https://drive.google.com/file/d/1RJsscFydDBy3Q3KyBYPrChOIvWu4rbVY/view?usp=drive_link)

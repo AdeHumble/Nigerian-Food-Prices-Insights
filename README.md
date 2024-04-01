@@ -21,7 +21,7 @@
 7. [Data Collection](#data-collection)
 8. [Data Cleaning & Preprocessing](#data-cleaning--data-preprocessing)
 9. [Methodology](#methodology)
-10. [Results & Observations](#results--observations)
+10. [Results & Discussions](#results--discussions)
 11. [Recommendations](#recommendations)    
 12. [Future Work](#future-work)
 13. [References](#references)
@@ -56,7 +56,7 @@ The dataset used for this project contains food prices data for various commodit
 ## DATA CLEANING & DATA PREPROCESSING
 This section outlines the data preprocessing techniques employed to clean and prepare the dataset for analysis. Each technique addresses specific issues such as data formatting and data type standardization.
 
-### <p align="center"> Data Formatting </p>
+### <p align="center"> Data Formatting & Data Standardisation </p>
 - Promoted the first row as header and deleted the next row immediately after it
 - Renamed all the columns using sentence case
 - Changed the data type for the "Date" column to a datetime type
@@ -64,46 +64,79 @@ This section outlines the data preprocessing techniques employed to clean and pr
 - Renamed the third column, "admin 2" to "LGA"
 - Changed the data type for the "Latitude" and "Longitude" columns to float
 - Formatted the last column, "USD price" to 2 decimal places.
+- Replaced every value of "Beans (niebe)" in the "Commodity" column with "Beans (white)"
 
 <div align="center">
   <img src="images/dataformatting.PNG" alt="Image Description">
 </div>
 
-### <p align="center"> Data Standardization </p>
-- Replaced every value of "Beans (niebe)" in the "Commodity" column with "Beans (white)"
-
 ## METHODOLOGY
-- Explored trends in food prices over time
-- Analyzed regional disparities in food prices
-- Identified factors influencing food prices
-- Created DAX measures for Average prices, SamePeriod Last year, YoY growth, and Average Price for YoY
-- Created visualizations to communicate key findings
+### <p align="center">Data Analysis</p>
+- Identified factors influencing food prices, including market dynamics, supply chain disruptions, and economic factors.
+- Utilized DAX measures to calculate key metrics such as average prices, same period last year comparisons, year-over-year growth, and average price for year-over-year comparisons.
 
-## RESULTS & OBSERVATIONS
-First, find below some of the report visualizations: However, for more details, [Watch the video here](https://drive.google.com/file/d/1RJsscFydDBy3Q3KyBYPrChOIvWu4rbVY/view?usp=drive_link)
+**You will find below, some of the DAX measures that I created:**
+```
+DAX QUERY
+**1. TO CALCULATE THE AVERAGE PRICE OF ALL THE FOOD ITEMS ACROSS THE YEARS**
 
+Average Price of Food Item(s) = AVERAGE(wfp_food_prices_nga[Price])
+```
+```
+DAX QUERY
+2. TO CALCULATE THE YEAR OVER YEAR AVERAGE PRICE OF FOOD ITEMS
+
+AvgPrice YoY% = 
+VAR __PREV_YEAR = CALCULATE([Average Price of Food Item(s)], DATEADD('CALENDAR'[Date], -1, YEAR))
+RETURN
+	DIVIDE([Average Price of Food Item(s)] - __PREV_YEAR, __PREV_YEAR)
+```
+```
+DAX QUERY
+3. TO CALCULATE THE THE PREVIOUS YEAR AVERAGE PRICE BASED ON THE SELECTED(CURRENT) YEAR
+
+SamePeriod LY = CALCULATE([Average Price of Food Item(s)],SAMEPERIODLASTYEAR('CALENDAR'[Date]))
+```
+```
+DAX QUERY
+4. TO CALCULATE THE DIFFERENCE BETWEEN THE AVERAGE PRICE OF FOOD ITEMS AS COMAPRED TO THE PREVIOUS YEAR
+
+Variance = [Average Price of Food Item(s)]-[SamePeriod LY]
+```
+```
+DAX QUERY
+5. CALCULATE YEAR OVER YEAR PERCENTAGE GROWTH OF AVERAGE PRICE OF FOOD ITEMS
+
+YoY Growth = 
+var _uparrow = UNICHAR(129129)
+var _downarrow = UNICHAR(129131)
+var _variancee = [Variance]
+var _varpercent = [AvgPrice YoY%]*100
+var _blank = isblank([AvgPrice YoY%])
+return
+if (_blank,"NIL",
+if (_variancee>0, ROUND(_varpercent,2)&"% "&_uparrow, ROUND(_varpercent,2)&"% "& _downarrow))
+```
+
+### <p align="center">Visualization Creation</p>
+- Created visualizations to effectively communicate key findings and insights.
+- Utilized charts, graphs, and other visual elements to present trends, patterns, and disparities in food prices.
+
+**First, find below some of the report visualizations: However, for more details, [Watch the video here](https://drive.google.com/file/d/1RJsscFydDBy3Q3KyBYPrChOIvWu4rbVY/view?usp=drive_link)**
 <div align="center">
   <img src="visualizations/foodprices%20report.PNG" alt="FoodPrices">
 </div>
-
 #
-
-
 <div align="center">
   <img src="visualizations/metrics%20report.PNG" alt="Metrics">
 </div>
-
-
 #
-
 <div align="center">
   <img src="visualizations/marketprod%20report.PNG" alt="MarketProduction">
 </div>
-
 #
 
-## INSIGHTS DERIVED
-
+## RESULTS & DISCUSSIONS
 <div align="center">
   <img src="visualizations/Count%20of%20Prod%20States%20&%20Commodities%20by%20Date.PNG" alt="Image Description">
 </div>

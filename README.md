@@ -11,7 +11,7 @@
   </table>
 </div>
 
-<div align="center" <img src="images/aa.PNG"> </div>
+<div align="center"> <img src="images/intro%20cover.PNG" width=730> </div>
 
 
 ## <p align="center"/> **TABLE OF CONTENTS** </p>

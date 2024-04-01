@@ -11,9 +11,7 @@
   </table>
 </div>
 
-<div align="center">
-  <img src="images/aa.PNG" alt="Image Description" width="735 height="10">
-</div>
+
 
 ## <p align="center"/> **TABLE OF CONTENTS** </p>
 1. [Project Overview](#project-overview)

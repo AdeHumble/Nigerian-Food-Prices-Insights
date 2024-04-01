@@ -2,7 +2,7 @@
   <table style="margin-left:auto; margin-right:auto; border-collapse: collapse">
     <tr>
       <td align="left" style="border: none">
-        <img src="images/SHLogo.jpg" alt="Image Description" width="100" height="100">
+        <img src="images/SHLogo.jpg" alt="Image Description" width="150" height="150">
       </td>
       <td align="center" style="border: none">
         <h1>FOOD PRICES ANALYSIS IN NIGERIA<br>(CASE STUDY: 2002-2023)</h1>
@@ -12,7 +12,7 @@
 </div>
 
 <div align="center">
-  <img src="images/aa.PNG" alt="Image Description">
+  <img src="images/aa.PNG" alt="Image Description" width="735 height="10">
 </div>
 
 ## <p align="center"/> **TABLE OF CONTENTS** </p>
@@ -31,7 +31,7 @@
 15. [Acknowledgements](#acknowledgements)
 
 ## PROJECT OVERVIEW
-This project analyzes food prices data for Nigeria sourced from the World Food Programme Price Database. The goal is to explore trends, disparities, and factors influencing food prices to provide insights for stakeholders and policymakers.
+This project, my second capstone endeavor at the SkillHarvest Data Analytics Bootcamp, involves analyzing food price data for Nigeria sourced from the World Food Programme Price Database. As a group project where I serve as the team lead, our goal is to delve into trends, disparities, and factors influencing food prices. Ultimately, we aim to provide valuable insights for stakeholders and policymakers
 
 ## PROJECT OBJECTIVES
 - Identify regional variations in food prices within Nigeria and analyze the factors contributing to these disparities.
@@ -58,9 +58,9 @@ The dataset used for this project contains food prices data for various commodit
 ## DATA CLEANING & DATA PREPROCESSING
 - Promoted the first row as header and deleted the next row immediately after it
 - Renamed the all the columns using sentence case
-- Changed the data type for Date the column to a datetime type
-- Renamed the second column to State 
-- Renamed the third column to LGA
+- Changed the data type for the "Date" column to a datetime type
+- Renamed the second column, "admin 1" to "State"
+- Renamed the third column, "admin 2" to "LGA"
 - Changed the data type for latitude and longitude to decimals
 - Formatted the last column which - USD price to 2 decimal places.
 

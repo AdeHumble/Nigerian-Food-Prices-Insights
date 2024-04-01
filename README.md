@@ -30,32 +30,32 @@
 14. [Contact Information](#contact-information)
 15. [Acknowledgements](#acknowledgements)
 
-## Project Overview
+## PROJECT OVERVIEW
 This project analyzes food prices data for Nigeria sourced from the World Food Programme Price Database. The goal is to explore trends, disparities, and factors influencing food prices to provide insights for stakeholders and policymakers.
 
-## Project Objectives
+## PROJECT OBJECTIVES
 - Identify regional variations in food prices within Nigeria and analyze the factors contributing to these disparities.
 - Provide insights for policymakers
 - Evaluate food affordability and accessibility
 - Compare inflation rates of food commodities of year to year
 
-## Tools & Technologies
+## TOOLS & TECHNOLOGIES
 - Power BI for data cleaning, analysis and visualization
 
-## Project Structure
-- /data: Contains the raw and processed data files
+## PROJECT STRUCTURE
+- /datasets: Contains the raw and processed data files
 - /visualizations: Contains Power BI visualization files
 - /images: Contains images used for creating Github documentations
-- /docs: Contains project documentation
+- /videos: Contains video demonstration of the project dashboard capabilities
 
-## Data Collection
+## DATA COLLECTION
 The dataset used for this project contains food prices data for various commodities and regions in Nigeria [Check Datasource](https://data.humdata.org/dataset/wfp-food-prices-for-nigeria). It covers foods such as maize, rice, beans, fish, and sugar for different markets across the country.
 
 <div align="center">
   <img src="images/dataset%20snapshot.PNG" alt="Image Description">
 </div>
 
-## Data Cleaning & Data Preprocessing
+## DATA CLEANING & DATA PREPROCESSING
 - Promoted the first row as header and deleted the next row immediately after it
 - Renamed the all the columns using sentence case
 - Changed the data type for Date the column to a datetime type
@@ -64,14 +64,14 @@ The dataset used for this project contains food prices data for various commodit
 - Changed the data type for latitude and longitude to decimals
 - Formatted the last column which - USD price to 2 decimal places.
 
-## Methodology
+## METHODOLOGY
 - Explored trends in food prices over time
 - Analyzed regional disparities in food prices
 - Identified factors influencing food prices
 - Created visualizations to communicate key findings
 - Created DAX measures for Average prices, SamePeriod Last year, YoY growth, and Average Price for YoY
 
-## Results & Observations
+## RESULTS & OBSERVATIONS
 First, find below some of the report visualizations: However, for more details, [Watch the video here](https://drive.google.com/file/d/1RJsscFydDBy3Q3KyBYPrChOIvWu4rbVY/view?usp=drive_link)
 
 <div align="center">
@@ -115,7 +115,7 @@ First, find below some of the report visualizations: However, for more details, 
 
 4. Despite being among the least prolific states in terms of food production and market presence, Abia stands out for for its relatively expensive food items compared to other producing states, underscoring its market influence despite limited production volume
 
-## Recommendations
+## RECOMMENDATIONS
 
 |RECOMMENDATIONS|
 |---------------|
@@ -124,18 +124,18 @@ First, find below some of the report visualizations: However, for more details, 
 |3. Implement policies and initiatives that foster agricultural development and investment to sustain the surge in agricultural activity and subsequent food production growth.|
 
 
-## Future Work
+## FUTURE WORK
 - Create a model to forecast prices of food items in Nigeria
 - Refine project visualizations for better insights
 - Explore additional datasets for broader analysis
 - Collaborate with domain experts for deeper insights
 
-## References
+## REFERENCES
 - [World Food Programme Price Database](https://www.wfp.org/prices)
 
-## Contact Information
+## CONTACT INFORMATION
 For inquiries, please contact [Email](sunmolaadeyanju@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/sunmolaadeyanju/).
 
-## Acknowledgements
+## ACKNOWLEDGEMENTS
 - Special thanks to [Mr. Temidayo](https://www.linkedin.com/in/temidayoayeni/) for his invaluable support and guidance.
 

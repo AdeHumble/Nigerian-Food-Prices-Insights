@@ -99,12 +99,6 @@ SamePeriod LY = CALCULATE([Average Price of Food Item(s)],SAMEPERIODLASTYEAR('CA
 ```
 ```
 DAX QUERY
-4. TO CALCULATE THE DIFFERENCE BETWEEN THE AVERAGE PRICE OF FOOD ITEMS AS COMAPRED TO THE PREVIOUS YEAR
-
-Variance = [Average Price of Food Item(s)]-[SamePeriod LY]
-```
-```
-DAX QUERY
 5. CALCULATE YEAR OVER YEAR PERCENTAGE GROWTH OF AVERAGE PRICE OF FOOD ITEMS
 
 YoY Growth = 
@@ -116,6 +110,12 @@ var _blank = isblank([AvgPrice YoY%])
 return
 if (_blank,"NIL",
 if (_variancee>0, ROUND(_varpercent,2)&"% "&_uparrow, ROUND(_varpercent,2)&"% "& _downarrow))
+```
+```
+DAX QUERY
+4. TO CALCULATE THE DIFFERENCE BETWEEN THE AVERAGE PRICE OF FOOD ITEMS AS COMAPRED TO THE PREVIOUS YEAR
+
+Variance = [Average Price of Food Item(s)]-[SamePeriod LY]
 ```
 
 ### <p align="center">Visualization Creation</p>
